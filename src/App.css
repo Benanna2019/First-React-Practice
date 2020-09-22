@@ -1,4 +1,54 @@
-.App {
+.header {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.content {
+  background: url("https://www.councilofelrond.com/wp-content/uploads/2014/12/Lord-of-the-Rings-Wallpaper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  opacity: 90%;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),
+    inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+.myInfoCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoText {
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.randomFactoid {
+  display: flex;
+  justify-content: center;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +85,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
